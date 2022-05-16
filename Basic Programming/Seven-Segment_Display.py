@@ -8,7 +8,11 @@ d = {'0': 6,
     '7':3,
     '8':7,
     '9':6}
+
+
 t  = int(input())
+
+
 
 for _ in range(t):
     n = input()
@@ -16,7 +20,7 @@ for _ in range(t):
     for i in n:
         no_of_matchstick += d[i]
 
-    #Case 1 Max number when the no_of Matchstick is even
+    #Case 1 Max number when the no of Matchstick is even
     if no_of_matchstick%2 == 0:
         x = int(no_of_matchstick/2)
         number = ''
@@ -29,3 +33,6 @@ for _ in range(t):
             number = number + '1'
 
     print(number)
+
+
+#Follow me for solutions and you can contact me on rupamkarmakarcr7@gmail.com
