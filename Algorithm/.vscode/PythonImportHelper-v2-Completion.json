@@ -29,28 +29,28 @@
     {
         "label": "n",
         "kind": 5,
-        "importPath": "Maxumu_Sum",
-        "description": "Maxumu_Sum",
+        "importPath": "Maximum_Sum",
+        "description": "Maximum_Sum",
         "peekOfCode": "n = int(input())\narr=  list(map(int,input().split()))\ns = 0\nc = 0\nfor i in range(len(arr)):\n    if arr[i]>=0:\n        s += arr[i]\n        c +=1\nif s==0 and c==0:\n    s = max(arr)",
-        "detail": "Maxumu_Sum",
+        "detail": "Maximum_Sum",
         "documentation": {}
     },
     {
         "label": "s",
         "kind": 5,
-        "importPath": "Maxumu_Sum",
-        "description": "Maxumu_Sum",
+        "importPath": "Maximum_Sum",
+        "description": "Maximum_Sum",
         "peekOfCode": "s = 0\nc = 0\nfor i in range(len(arr)):\n    if arr[i]>=0:\n        s += arr[i]\n        c +=1\nif s==0 and c==0:\n    s = max(arr)\n    c = 1\nprint(s,c)",
-        "detail": "Maxumu_Sum",
+        "detail": "Maximum_Sum",
         "documentation": {}
     },
     {
         "label": "c",
         "kind": 5,
-        "importPath": "Maxumu_Sum",
-        "description": "Maxumu_Sum",
+        "importPath": "Maximum_Sum",
+        "description": "Maximum_Sum",
         "peekOfCode": "c = 0\nfor i in range(len(arr)):\n    if arr[i]>=0:\n        s += arr[i]\n        c +=1\nif s==0 and c==0:\n    s = max(arr)\n    c = 1\nprint(s,c)",
-        "detail": "Maxumu_Sum",
+        "detail": "Maximum_Sum",
         "documentation": {}
     }
 ]
