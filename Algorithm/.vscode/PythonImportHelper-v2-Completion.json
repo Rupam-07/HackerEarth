@@ -1,0 +1,56 @@
+[
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Breakup_App",
+        "description": "Breakup_App",
+        "peekOfCode": "n = int(input())\nresult = {}\nmsg = []\nfor _ in range(n):\n    msg.append(list(input().split()))\nfor i in range(n):\n    for j in range(len(msg[i])):\n        if msg[i][j].isdigit():\n            if msg[i][j] not in result:\n                result[msg[i][j]]=0",
+        "detail": "Breakup_App",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Breakup_App",
+        "description": "Breakup_App",
+        "peekOfCode": "result = {}\nmsg = []\nfor _ in range(n):\n    msg.append(list(input().split()))\nfor i in range(n):\n    for j in range(len(msg[i])):\n        if msg[i][j].isdigit():\n            if msg[i][j] not in result:\n                result[msg[i][j]]=0\n            if msg[i][0] == 'G:':",
+        "detail": "Breakup_App",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "Breakup_App",
+        "description": "Breakup_App",
+        "peekOfCode": "msg = []\nfor _ in range(n):\n    msg.append(list(input().split()))\nfor i in range(n):\n    for j in range(len(msg[i])):\n        if msg[i][j].isdigit():\n            if msg[i][j] not in result:\n                result[msg[i][j]]=0\n            if msg[i][0] == 'G:':\n                result[msg[i][j]]+=2",
+        "detail": "Breakup_App",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Maxumu_Sum",
+        "description": "Maxumu_Sum",
+        "peekOfCode": "n = int(input())\narr=  list(map(int,input().split()))\ns = 0\nc = 0\nfor i in range(len(arr)):\n    if arr[i]>=0:\n        s += arr[i]\n        c +=1\nif s==0 and c==0:\n    s = max(arr)",
+        "detail": "Maxumu_Sum",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Maxumu_Sum",
+        "description": "Maxumu_Sum",
+        "peekOfCode": "s = 0\nc = 0\nfor i in range(len(arr)):\n    if arr[i]>=0:\n        s += arr[i]\n        c +=1\nif s==0 and c==0:\n    s = max(arr)\n    c = 1\nprint(s,c)",
+        "detail": "Maxumu_Sum",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Maxumu_Sum",
+        "description": "Maxumu_Sum",
+        "peekOfCode": "c = 0\nfor i in range(len(arr)):\n    if arr[i]>=0:\n        s += arr[i]\n        c +=1\nif s==0 and c==0:\n    s = max(arr)\n    c = 1\nprint(s,c)",
+        "detail": "Maxumu_Sum",
+        "documentation": {}
+    }
+]
