@@ -1,5 +1,5 @@
-#Follow me for solutions and you can contact me on rupamkarmakarcr7@gmail.com 
-#please give it a star thank you
+//Follow me for solutions and you can contact me on rupamkarmakarcr7@gmail.com 
+//please give it a star thank you
 
 
 #include <bits/stdc++.h>
